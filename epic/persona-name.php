@@ -12,7 +12,7 @@
 		<div>
 			<table>
 				<tr>
-					<th>Likes</th>
+					<th><strong>Likes</strong></th>
 					<th>Dislikes</th>
 					<th>Traits</th>
 					<th>Tech Use</th>
