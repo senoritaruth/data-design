@@ -7,15 +7,16 @@
 	<body>
 		<div>
 		<h2>Persona</h2>
-		<p>Meet Molly Vásquez. She's a shopping guru, and a prepared traveler who is always looking for the best deal on designer clothes and accessories.</p>
-		</div>
 		<div>
+			<img src="persona-name.jpg" alt="Molly Vásquez">
+		<p>Meet Molly Vásquez. She's a shopping guru, and is getting ready for her first gala.</p>
+		</div>
 			<table>
 				<tr>
 					<th><strong>Likes</strong></th>
-					<th>Dislikes</th>
-					<th>Traits</th>
-					<th>Tech Use</th>
+					<th><strong>Dislikes</strong></th>
+					<th><strong>Traits</strong></th>
+					<th><strong>Tech Use</strong></th>
 				</tr>
 				<tr>
 					<td>rosé wine</td>
@@ -75,6 +76,5 @@
 					<td>Instagram</td>
 				</tr>
 			</table>
-		</div>
 	</body>
 </html>
