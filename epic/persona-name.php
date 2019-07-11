@@ -7,10 +7,11 @@
 	<body>
 		<div>
 		<h2>Persona</h2>
-		<div>
+		<div id="PersonaIntro">
 			<img src="persona-name.jpg" alt="Molly Vásquez">
-		<p>Meet Molly Vásquez. She's a shopping guru, and is getting ready for her first gala.</p>
+		Meet Molly Vásquez. She's a shopping guru, and is getting ready for her first gala. She is an intermediate-level tech user. She spends a significant portion of her time online searching, comparing prices, and making purchases on retail websites.
 		</div>
+		<div id="PersonaTable"
 			<table>
 				<tr>
 					<th><strong>Likes</strong></th>
@@ -28,7 +29,7 @@
 					<td>designer shoes & purses</td>
 					<td>the color orange</td>
 					<td>single</td>
-					<td>latest iPhone</td>
+					<td>iPhone Xs (the big one)</td>
 				</tr>
 				<tr>
 					<td>the lastest fashion mags</td>
@@ -76,7 +77,9 @@
 					<td>Instagram</td>
 				</tr>
 			</table>
-			<br>
+		</div>
+		<div id="HomeNav"
 			<a href="index.php">Data Design Home</a>
+		</div>
 	</body>
 </html>

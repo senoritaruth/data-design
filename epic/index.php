@@ -5,11 +5,11 @@
 		<title>Data Design Project Home</title>
 	</head>
 	<body>
-		<h1>Data Design Project Home</h1>
-		<a href="persona-name.php">Molly</a>
-		<br>
-	<a href="use-case.php">User Story, Use Case, Interaction Flow</a>
-		<br>
-	<a href="conceptual-model.html">Conceptual Model</a>
+		<h2>Data Design Project Home</h2>
+		<div id="HomeMenu">
+			<a href="persona-name.php">Molly</a>
+			<a href="use-case.php">User Story, Use Case, Interaction Flow</a>
+			<a href="conceptual-model.html">Conceptual Model</a>
+		</div>
 	</body>
 </html>

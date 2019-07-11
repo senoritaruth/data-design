@@ -5,38 +5,43 @@
 		<title>User Story, Use Case, Interaction Flow</title>
 	</head>
 	<body>
-		<div id="userstory">
+		<div id="UserStory">
 		<h2>User Story</h2>
-		Molly is attending a gala event and needs to find an evening cape.
+		As a user, I need to add a black cape to my "Save for Later" section.
 		</div>
-		<div id="usecase">
+		<div id="UseCase">
 			<h2>Use Case</h2>
-			Molly has logged into her favorite high-end online store, <a href="https://www.bergdorfgoodman.com">Bergdorf Goodman</a>, and is searching for a black cape by type and color.
+			Molly has logged into her favorite high-end store's website, <a href="https://www.bergdorfgoodman.com">Bergdorf Goodman</a>, and is searching for a black evening cape by type and color.
 		</div>
-		<div id="prepostcond">
+		<div id="PrePostCond">
 			Preconditions:
 			<ul>
 				<li>Molly is a registered user of <a href="https://www.bergdorfgoodman.com">Bergdorf Goodman</a>.</li>
+				<li>She has logged in.</li>
+				<li>She has selected the Women's Apparel section of the website.</li>
 			</ul>
-			Postcondition:
+			Postconditions:
 			<ul>
-				<li>Molly finds the cape she would like to purchase.</li>
+				<li>Molly selects a cape.</li>
+				<li>She clicks the save for later button.</li>
+			</ul>
 		</div>
-		<div id="interaction">
+		<div id="Interaction">
 		<h2>Interaction Flow</h2>
 		<ul>
-			<li>Molly logs into BG.com</li>
-			<li>She clicks on Women's Clothing section.</li>
-			<li>The website returns a set of Women's Clothing types.</li>
 			<li>She clicks on the Type dropdown to filter by Capes.</li>
 			<li>The website returns all capes.</li>
-			<li>She then clicks on the Color dropdown to filter to black.</li>
+			<li>She then clicks on the Color dropdown to filter by color.</li>
+			<li>She selects black.</li>
 			<li>The website returns all black capes.</li>
-			<li>She sorts by highest to lowest price.</li>
-			<li>The website returns all black capes organized by highest to lowest price.</li>
-			<li>She selects the prettiest cape of the top six results.</li>
+			<li>She clicks on the desired cape.</li>
+			<li>The website moves to the product page.</li>
+			<li>She clicks on Add To Shopping Bag.</li>
+			<li>She clicks on the View Shopping Bag button.</li>
+			<li>The website moves to the Shopping Bag page.</li>
+			<li>She clicks on the Save For Later button.</li>
 		</ul>
-		</div>
+		</div id="HomeNav">
 		<a href="index.php">Data Design Home</a>
 	</body>
 </html>
