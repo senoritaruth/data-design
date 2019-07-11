@@ -4,11 +4,11 @@
 		<meta charset="utf-8"/>
 		<title>Data Design Project Home</title>
 	</head>
-	<link>
+	<body>
 		<h1>Data Design Project Home</h1>
 		<a href="persona-name.php">Molly</a>
 		<br>
-	<a href="use-case.php">Use Case & Interaction Flow</a>
+	<a href="use-case.php">User Story, Use Case, Interaction Flow</a>
 		<br>
 	<a href="conceptual-model.html">Conceptual Model</a>
 	</body>
