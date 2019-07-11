@@ -76,6 +76,7 @@
 					<td>Instagram</td>
 				</tr>
 			</table>
+			<br>
 			<a href="index.php">Data Design Home</a>
 	</body>
 </html>
