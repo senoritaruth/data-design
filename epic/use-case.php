@@ -11,7 +11,7 @@
 		</div>
 		<div id="usecase">
 			<h2>Use Case</h2>
-			Molly has logged into her favorite high-end online store, <a href="https://www.bergdorfgoodman.com">Bergdorf Goodman</a>, and is searching for a black cape by designer and color.
+			Molly has logged into her favorite high-end online store, <a href="https://www.bergdorfgoodman.com">Bergdorf Goodman</a>, and is searching for a black cape by type and color.
 		</div>
 		<div id="prepostcond">
 			Preconditions:
@@ -26,10 +26,14 @@
 		<h2>Interaction Flow</h2>
 		<ul>
 			<li>Molly logs into BG.com</li>
-			<li>She clicks on Women's Clothing section,</li>
+			<li>She clicks on Women's Clothing section.</li>
+			<li>The website returns a set of Women's Clothing types.</li>
 			<li>She clicks on the Type dropdown to filter by Capes.</li>
+			<li>The website returns all capes.</li>
 			<li>She then clicks on the Color dropdown to filter to black.</li>
+			<li>The website returns all black capes.</li>
 			<li>She sorts by highest to lowest price.</li>
+			<li>The website returns all black capes organized by highest to lowest price.</li>
 			<li>She selects the prettiest cape of the top six results.</li>
 		</ul>
 		</div>
