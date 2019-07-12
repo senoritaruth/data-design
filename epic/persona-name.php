@@ -11,7 +11,7 @@
 			<img src="persona-name.jpg" alt="Molly Vásquez">
 		Meet Molly Vásquez. She's a shopping guru, and is getting ready for her first gala. She is an intermediate-level tech user. She spends a significant portion of her time online searching, comparing prices, and making purchases on retail websites.
 		</div>
-		<div id="PersonaTable"
+		<div id="PersonaTable">
 			<table>
 				<tr>
 					<th><strong>Likes</strong></th>
