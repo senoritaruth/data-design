@@ -9,7 +9,7 @@
 		<h2>Persona</h2>
 		<div id="PersonaIntro">
 			<img src="persona-name.jpg" alt="Molly Vásquez">
-		Meet Molly Vásquez. She's a shopping guru, and is getting ready for her first gala. She is an intermediate-level tech user. She spends a significant portion of her time online searching, comparing prices, and making purchases on retail websites.
+			<p>Meet Molly Vásquez. She's a shopping guru, and is getting ready for her first gala. She is an intermediate-level tech user. She spends a significant portion of her time online searching, comparing prices, and making purchases on retail websites.</p>
 		</div>
 		<div id="PersonaTable">
 			<table>
