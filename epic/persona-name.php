@@ -78,7 +78,7 @@
 				</tr>
 			</table>
 		</div>
-		<div id="HomeNav"
+		<div id="HomeNav">
 			<a href="index.php">Data Design Home</a>
 		</div>
 	</body>
