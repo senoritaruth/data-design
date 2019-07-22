@@ -1,5 +1,8 @@
-DROP TABLE IF EXISTS User;
-CREATE TABLE User (
+DROP TABLE IF EXISTS savelater;
+DROP TABLE IF EXISTS product;
+DROP TABLE IF EXISTS user;
+
+CREATE TABLE user (
 	userId BINARY(16) NOT NULL,
 	userFirstName CHAR(40) NOT NULL,
 	userLastName CHAR(40) NOT NULL,
@@ -8,8 +11,7 @@ CREATE TABLE User (
 	PRIMARY KEY(userId)
 );
 
-DROP TABLE IF EXISTS Product;
-CREATE TABLE Product (
+CREATE TABLE product (
 	productId BINARY(16) NOT NULL,
 	productName CHAR(40) NOT NULL,
 	productColor CHAR(20) NOT NULL,
@@ -17,13 +19,12 @@ CREATE TABLE Product (
 	PRIMARY KEY(productId)
 );
 
-DROP TABLE IF EXISTS SaveLater;
-CREATE TABLE SaveLater (
+CREATE TABLE savelater (
 	saveLaterUserId BINARY(16) NOT NULL,
 	saveLaterProductId BINARY(16) NOT NULL,
 	INDEX(saveLaterProductId),
-	FOREIGN KEY(saveLaterUserId) REFERENCES User(UserId),
-	FOREIGN KEY(saveLaterProductId) REFERENCES Product(ProductId),
+	FOREIGN KEY(saveLaterUserId) REFERENCES user(userId),
+	FOREIGN KEY(saveLaterProductId) REFERENCES product(productId),
 	PRIMARY KEY(saveLaterUserId, saveLaterProductId)
 );
 
