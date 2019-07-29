@@ -13,9 +13,9 @@ CREATE TABLE user (
 
 CREATE TABLE product (
 	productId BINARY(16) NOT NULL,
-	productName CHAR(40) NOT NULL,
-	productColor CHAR(20) NOT NULL,
-	productSize CHAR(20) NOT NULL,
+	productName VARCHAR(40) NOT NULL,
+	productColor VARCHAR(20) NOT NULL,
+	productSize VARCHAR(20) NOT NULL,
 	PRIMARY KEY(productId)
 );
 
